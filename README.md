@@ -1,11 +1,18 @@
 # Data-Driven Optimization of Healthcare Operations & Financial Performance
 
-## 📌 Project Overview
+## Project Directory
+* **Tableau Dashboard:** [View Live Interactive Dashboard (Tableau Public)](https://public.tableau.com/app/profile/emma.dumonseau/viz/HealthcareOperationsandFinancialPerformanceDashboard/HealthcareOperationsFinancialPerformance)
+* **Project Report:** [View Full Project Report (PDF)](https://github.com/emmadumonseau/Healthcare-Operations-and-Financial-Performance/blob/main/Data-Driven%20Optimization%20of%20Healthcare%20Operations%20%26%20Financial%20Performance.pdf)
+*  **Python Notebook:** [View Python Cleaning & EDA Code](https://github.com/emmadumonseau/Healthcare-Operations-and-Financial-Performance/blob/main/Completed%20Python%20Healthcare%20Dataset%20Notebook.ipynb)
+* **Cleaned Healthcare Dataset:** [Access Cleaned Dataset (Excel)](https://github.com/emmadumonseau/Healthcare-Operations-and-Financial-Performance/blob/main/healthcare_dataset_cleaned_tableau.xlsx)
+*  **Raw Dataset:** [Access Raw Source Data (CSV)](https://github.com/emmadumonseau/Healthcare-Operations-and-Financial-Performance/blob/main/raw_smart_hospital_appointment_dataset.csv)
+
+## Project Overview
 This project identifies systemic revenue leakage, operational bottlenecks, and scheduling inefficiencies across a multi-department clinic network. Utilizing a data pipeline spanning Python, Excel, and Tableau, the project delivers an audit of patient scheduling patterns, department level financial loss, evaluates emergency compliance metrics, and structures the findings into an executive dashboard.
 
 ---
 
-## 🛠️ Data Pipeline & Technical Methodology
+## Data Pipeline & Technical Methodology
 
 ### 1. Data Exploration, Feature Engineering, & Statistical Testing (Python)
 The pipeline began in Python utilizing the `pandas`, `numpy`, and `scipy.stats` libraries to perform data wrangling, derive operational metrics, and mathematically validate core operational hypotheses.
@@ -33,7 +40,7 @@ The finalized metrics were compiled and moved into Tableau to produce an executi
 
 ---
 
-## 💡 Analytical Insights & Proposed Interventions
+## Analytical Insights & Proposed Interventions
 
 ### 1. Revenue Leakage Analysis
 > **The Findings:** Cardiology (\$1,665,111 in losses) and Gynecology (\$1,514,960 in losses) represent the highest financial exposure across the organization. Conversely, Cardiology demonstrated strong operational efficiency, maintaining the lowest overall failure rate at 15.1% while processing the highest volume of total appointments (1,075).
